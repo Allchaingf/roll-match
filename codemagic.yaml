@@ -8,12 +8,12 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.cartrafpul.TrafficPulse
+        bundle_identifier: com.rolledmatch.RollMatch
       vars:
         APP_STORE_CONNECT_KEY: rool_match
         APP_STORE_APPLE_ID: 6796454156
         BUNDLE_ID: "com.rolledmatch.RollMatch"
-        XCODE_PROJECT: "com.rolledmatch.RollMatch"
+        XCODE_PROJECT: "RollMatch.xcodeproj"
         XCODE_SCHEME: "RollMatch"
     scripts:
       - name: Clean and Resolve SPM Dependencies
